@@ -1,0 +1,3 @@
+{{from gluon.serializers import json
+  response.headers['Content-Type'] = 'application/json'}}
+{{=XML(json(response._vars))}}
