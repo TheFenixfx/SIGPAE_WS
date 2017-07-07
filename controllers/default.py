@@ -121,10 +121,18 @@ def asignatura(cod_asignatura):
              nro_horas_practica h_practica,
              nro_horas_laboratorio h_laboratorio,
              anio_periodo_desde vig_desde,
-             anio_periodo_hasta vig_hasta
+             mesi_periodo_desde mes_desde,
+             anio_periodo_hasta vig_hasta,
+             mesi_periodo_hasta mes_hasta
            FROM asignatura_pregrado
            WHERE cod_asignatura=%s''', [cod_asignatura], as_dict=True
     )
+    if len(query) > 0:
+        query[0]['vig_desde'] = transformar_numero(query[0]['mes_desde']) + '-' + transformar_anio(query[0]['vig_desde'])
+        if query[0]['vig_hasta']:
+            query[0]['vig_hasta'] = transformar_numero(query[0]['mes_hasta']) + '-' + transformar_anio(query[0]['vig_hasta'])
+        query[0].pop('mes_desde', None)
+        query[0].pop('mes_hasta', None)
     return response.json(query)
 
 def lista_asignaturas(vars):
@@ -188,3 +196,24 @@ def coordinacion_carrera(cod_carrera):
            WHERE coord.cod_carrera=%s ''', [cod_carrera], as_dict=True
     )
     return response.json(query)
+
+# Agrega un cero para el dia
+def transformar_numero(numero):
+    try:
+        numero = int(numero)
+    except:
+        return ""
+    if numero < 10:
+        return '0' + str(numero)
+
+# Transforma fecha del formato corto (4 a 2004, 14 a 2014 y de 94 a 1994)
+def transformar_anio(anio):
+    try:
+        anio = int(anio)
+    except:
+        return ""
+    if anio > 60:
+        anio = anio + 1900
+    else:
+        anio = anio + 2000
+    return str(anio)
