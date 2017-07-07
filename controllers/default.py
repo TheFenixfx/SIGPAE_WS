@@ -56,7 +56,8 @@ def webservices():
 
 ## /carreras
 def carreras():
-    return db.executesql("SELECT cod_carrera, nombre_carrera nombre, tipo_carrera tipo FROM carrera", as_dict=True)
+    query = db.executesql("SELECT cod_carrera, nombre_carrera nombre, tipo_carrera tipo FROM carrera", as_dict=True)
+    return response.json(query)
 
 ## /estudiantes?carnet=11-10199
 def estudiante_carnet(carnet):
