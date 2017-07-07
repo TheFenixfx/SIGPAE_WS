@@ -73,7 +73,8 @@ def estudiante_carnet(carnet):
     lista[0] = str(int(lista[0]))  # Quitar cero al inicio
     query = db.executesql(
         '''SELECT 
-             cedula_estudiante ci, 
+             cedula_estudiante ci,
+             concat(concat(anio_carnet,'-'),nro_carnet) carnet,
              nombres_estudiante nombres, 
              apellidos_estudiante apellidos,
              estado_civil,
@@ -86,7 +87,8 @@ def estudiante_carnet(carnet):
 def estudiante_cedula(cedula):
     query = db.executesql(
         '''SELECT 
-             cedula_estudiante ci, 
+             cedula_estudiante ci,
+             concat(concat(anio_carnet,'-'),nro_carnet) carnet,
              nombres_estudiante nombres, 
              apellidos_estudiante apellidos,
              estado_civil,

@@ -16,7 +16,9 @@ export dbname=dacepregrado
 export user=sigpae
 export pass=123123
 export schema=public
+export PGPASSWORD=$pass
 
+psql -U sigpae -d dacepregrado -f droptable.sql
 ./pgfutter --db $dbname --schema $schema --user $user --pw $pass csv CSV/ASIGNATURA_PREGRADO.csv -d ";"
 ./pgfutter --db $dbname --schema $schema --user $user --pw $pass csv CSV/ASIGNATURA_PREGRADO_HISTORIA.csv -d ";"
 ./pgfutter --db $dbname --schema $schema --user $user --pw $pass csv CSV/CARRERA.csv -d ";"
