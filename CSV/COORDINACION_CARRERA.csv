@@ -1,0 +1,34 @@
+"CARRERAS_USB";"NOMBRE_COORDINACION";"DECANATO";"EMAIL_COORDINACION";"COD_CARRERA"
+"ADMINISTRACIÓN ADUANERA (LITORAL)";"Coordinación de Administración Aduanera";"9090";"coord-aduanera@usb.ve";
+"ADMINISTRACIÓN DEL TRANSPORTE (LITORAL)";"Coordinación de Administración del Transporte y Organización Empresarial";"9090";"coord-admtroe@usb.ve";
+"ADMINISTRACIÓN DEL TURISMO (LITORAL)";"Coordinación de Turismo, Hotelería y Hospitalidad";"9090";"coord-thnul@usb.ve";
+"ADMINISTRACIÓN HOTELERA (LITORAL)";"Coordinación de Turismo, Hotelería y Hospitalidad";"9090";"coord-thnul@usb.ve";
+"ARQUITECTURA (SARTENEJAS)";"Coordinación de Arquitectura";"6200";"coord-arq@usb.ve";"0700"
+"COMERCIO EXTERIOR (LITORAL)";"Coordinación de Comercio Exterior y Licenciatura en Comercio Internacional";"9090";"coord-cext@usb.ve";
+"COMERCIO EXTERIOR (SARTENEJAS)";;"9090";;"4300"
+"LICENCIATURA EN COMERCIO INTERNACIONAL (LITORAL)";"Coordinación de Comercio Exterior y Licenciatura en Comercio Internacional";"6200";"coord-cext@usb.ve";
+"LICENCIATURA EN GESTIÓN DE LA HOSPITALIDAD (LITORAL)";"Coordinación de Turismo, Hotelería y Hospitalidad";"6200";"coord-thnul@usb.ve";
+"INGENIERÍA DE COMPUTACIÓN (SARTENEJAS)";"Coordinación de Ingeniería de Computación";"6200";"coord-comp@usb.ve";"0800"
+"INGENIERÍA DE MANTENIMIENTO (LITORAL)";"Coordinación de Tecnología Mecánica, Mantenimiento Aeronáutico e Ingeniería de Mantenimiento";"6200";"coord-tmma@usb.ve";
+"INGENIERÍA DE MATERIALES (SARTENEJAS)";"Coordinación de Ingeniería de Materiales";"6200";"coord-mt@usb.ve";"1500"
+"INGENIERÍA DE PRODUCCIÓN (SARTENEJAS)";"Coordinación de Ingeniería de Producción y Organización Empresarial";"6200";"coord-prod@usb.ve";"1700"
+"INGENIERÍA DE TELECOMUNICACIONES (SARTENEJAS)";"Coordinación de Ingeniería de Telecomunicaciones";"6200";"coord-it@usb.ve";"1800"
+"INGENIERÍA ELÉCTRICA (SARTENEJAS)";"Coordinación de Tecnología e Ingeniería Eléctrica";"6200";"coord-el@usb.ve";"0100"
+"INGENIERÍA ELECTRÓNICA (SARTENEJAS)";"Coordinación de Tecnología e Ingeniería Electrónica";"6200";"coord-electronica@usb.ve";"0600"
+"INGENIERÍA GEOFÍSICA (SARTENEJAS)";"Coordinación de Ingeniería Geofísica";"6200";"coord-geo@usb.ve";"1200"
+"INGENIERÍA MECÁNICA (SARTENEJAS)";"Coordinación de Ingeniería Mecánica";"6200";"coord-mc@usb.ve";"0200"
+"INGENIERÍA QUÍMICA (SARTENEJAS)";"Coordinación de Ingeniería Química";"6200";"coord-iq@usb.ve";"0300"
+"LICENCIATURA DOCENTE EN MATEMÁTICA (SARTENEJAS)";"Coordinación de Matemática";"6200";"coord-ma@usb.ve";"0502"
+"LICENCIATURA EN BIOLOGÍA (SARTENEJAS)";"Coordinación de Biología";"6200";"coord-bio@usb.ve";"1900"
+"LICENCIATURA EN FÍSICA (SARTENEJAS)";"Coordinación de Física";"6200";"coord-fis@usb.ve";"1000"
+"LICENCIATURA EN MATEMÁTICAS (SARTENEJAS)";"Coordinación de Matemática";"6200";"coord-ma@usb.ve";"0500"
+"LICENCIATURA EN QUÍMICA (SARTENEJAS)";"Coordinación de Química";"6200";"coord-qm@usb.ve";"0400"
+"MANTENIMIENTO AERONÁUTICO (LITORAL)";"Coordinación de Tecnología Mecánica, Mantenimiento Aeronáutico e Ingeniería de Mantenimiento";"9090";"coord-tmma@usb.ve";
+"ORGANIZACIÓN EMPRESARIAL (LITORAL)";"Coordinación de Administración del Transporte y Organización Empresarial";"9090";"coord-admtroe@usb.ve";
+"ORGANIZACIÓN EMPRESARIAL (SARTENEJAS)";"Coordinación de Ingeniería de Producción y Organización Empresarial";"9090";"coord-prod@usb.ve";"4200"
+"TECNOLOGÍA ELÉCTRICA (LITORAL)";"Coordinación de Tecnología Eléctrica y Electrónica";"9090";"coord-tee@usb.ve";
+"TECNOLOGÍA ELÉCTRICA (SARTENEJAS)";"Coordinación de Tecnología e Ingeniería Eléctrica";"9090";"coord-el@usb.ve";"4000"
+"TECNOLOGÍA ELECTRÓNICA (LITORAL)";"Coordinación de Tecnología Eléctrica y Electrónica";"9090";"coord-tee@usb.ve";
+"TECNOLOGÍA ELECTRÓNICA (SARTENEJAS)";"Coordinación de Tecnología e Ingeniería Electrónica";"9090";"coord-electronica@usb.ve";"4100"
+"TECNOLOGÍA MECÁNICA (LITORAL)";"Coordinación de Tecnología Mecánica, Mantenimiento Aeronáutico e Ingeniería de Mantenimiento";"9090";"coord-tmma@usb.ve";
+"URBANISMO (SARTENEJAS)";"Coordinación de Estudios Urbanos";"6200";"coord-urb@usb.ve";"1100"

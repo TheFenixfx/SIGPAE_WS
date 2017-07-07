@@ -1,0 +1,44 @@
+COD_DEPTO;NOMBRE_DEPTO;COD_EDIFICIO;NRO_OFICINA;COD_DIVISION;SIGLAS_DEPTO;CEDULA_JEFE;E_MAIL_DEPTO;WWW_DEPTO;PISO
+00;SIN DEFINIR;MYS;000;000;00;;;;
+6501;Dpto. de Matemáticas Puras y Aplicadas;MYS;000;000;MA;;dep-ma@usb.ve;;
+6502;Dpto. de Física;MYS;000;000;FS;;dep-fs@usb.ve;;
+6503;Dpto. de Química;MYS;000;000;QM;;dep-qm@usb.ve;;
+6504;Dpto. de Mecánica;MYS;000;000;MC;;dep-mc@usb.ve;;
+6506;Dpto. de Electrónica y Circuitos;MYS;000;000;EC;;dep-ec@usb.ve;;
+6508;Dpto. de Procesos y Sistemas;MYS;000;000;PS;;dep-ps@usb.ve;;
+6509;Dpto. de Ciencia de los Materiales;MYS;000;000;MT;;dep-mt@usb.ve;;
+6701;Dpto. de Ciencias Sociales;MYS;000;000;CS;;dep-cs@usb.ve;;
+6702;Dpto. de Lengua y Literatura;MYS;000;000;LL;;dep-ll@usb.ve;;
+6703;Dpto. de Ciencias Económicas y Admtvas.;MYS;000;000;CE;;dep-ce@usb.ve;;
+6704;Dpto. de Filosofía;MYS;000;000;FL;;dep-filo@usb.ve;;
+6705;Dpto. de Idiomas;MYS;000;000;ID;;dep-id@usb.ve;;
+6801;Dpto. de Biología Celular;MYS;000;000;BC;;dep-bc@usb.ve;;
+6802;Dpto. de Estudios Ambientales;MYS;000;000;EA;;dep-ea@usb.ve;;
+6804;Dpto. de Biología de Organismos;MYS;000;000;BO;;dep-bo@usb.ve;;
+4030;Comisión de Planificación;MYS;000;000;CP;;;;
+6200;Decanato de Estudios Profesionales;MYS;000;000;DF;;;;
+8620;Dpto. de Tecnología Industrial;MYS;000;000;TI;;sdl-dti@usb.ve;;
+8640;Dpto. Form. General y Ccias. Básicas;MYS;000;000;FC;;dpto-fgcb@usb.ve;;
+6511;Dpto. de Ciencias de la Tierra;MYS;000;000;GC;;dep-gc@usb.ve;;
+6708;Dpto. de Planificación Urbana;MYS;000;000;PL;;dep-pl@usb.ve;;
+6505;Dpto. de Termodinámica y Fenómenos de Transf.;MYS;000;000;TF;;teryfem@usb.ve;;
+6507;Dpto. de Conversión y Transporte de Energía;MYS;000;000;CT;;dep-ct@usb.ve;;
+6510;Dpto. Computación y Tecnología de la Información;MYS;000;000;CI;;dep-ci@usb.ve;;
+8630;Dpto. de Tecnología de Servicios;MYS;000;000;TS;;kotero@usb.ve;;
+6706;Dpto. de Ciencias y Tec. del Comportamiento;MYS;000;000;CC;;dep-cc@usb.ve;;
+6707;Dpto. de Diseño Arquitectura y Artes Plásticas;MYS;000;000;DA;;dpto-da@usb.ve;;
+6803;Dpto. de Tecnol. de Proc. Biolog. y Bioquímicos;MYS;000;000;PB;;dpto-pb@usb.ve;;
+6201;Cursos en Cooperación;MYS;000;000;EP;;;;
+5050;TRABAJO DE GRADO;MYS;000;000;TG;;;;
+6500;PROYECTO DE GRADO;MYS;000;000;PG;;;;
+6512;TESIS DOCTORAL;MYS;000;000;TD;;;;
+6700;DESCONOCIDO;MYS;000;000;NS;;;;
+6800;DESCONOCIDO;MYS;000;000;NS;;;;
+8090;DESCONOCIDO;CB1;000;000;XX;;dace-direccion@usb.ve;;0
+6114;Computo Cientifico y Estadistico;CB1;1;000;CO;82225225;dep-co@usb.ve;;1
+9090;Decanato de Estudios Tecnologicos;CB1;000;000;XX;;dace-dce@usb.ve;;0
+7051;Dpto. Gestion de la Información Academico Estundia;CB1;025;000;XX;;dace-horarios@usb.ve;;0
+9999;PASANTIAS SDL;CB1;000;000;PD;;;;
+9998;Cursos en Cooperación;MYS;000;000;ET;;;;
+9996;Dpto. de Filosofía;MYS;000;000;FF;;dep-filo@usb.ve;;
+9997;TRABA ESPECIAL DE GRADO;CB1;000;000;TE;;;;

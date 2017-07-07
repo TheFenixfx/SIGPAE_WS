@@ -1,0 +1,27 @@
+COD_CARRERA;NOMBRE_CARRERA;COD_AREA_CARRERA;TITULO_OTORGADO;COD_CB;NRO_CREDITOS_OBLIGATORIOS;NRO_CREDITOS_EGCP;NRO_CREDITOS_ELECTIVAS;SIGLO_PERIODO_DESDE;ANIO_PERIODO_DESDE;MESI_PERIODO_DESDE;MESF_PERIODO_DESDE;SIGLO_PERIODO_HASTA;ANIO_PERIODO_HASTA;MESI_PERIODO_HASTA;MESF_PERIODO_HASTA;ORDEN_PROTOCOLO;TIPO_CARRERA
+0100;Ingeniería Eléctrica;00;Ingeniero Electricista;0000;142;18;12;0;99;1;3;;;;;3;L
+0200;Ingeniería Mecánica;00;Ingeniero Mecánico;0000;128;18;27;0;99;1;3;;;;;13;L
+0300;Ingeniería Química;00;Ingeniero Químico;0000;130;18;21;0;99;1;3;;;;;7;L
+0400;Licenciatura en Química;00;Licenciado en Química;0000;134;18;11;0;99;1;3;;;;;10;L
+0500;Licenciatura en Matemáticas;00;Licenciado en Matemáticas;0000;122;18;16;0;99;1;3;;;;;9;L
+0501;Lic.en Matemáticas (Est. y Mat.Computacional);00;Licenciado en Matemáticas;0000;93;18;37;0;99;1;3;;;;;9;L
+0502;Lic en Matemáticas ( Didáctica de la Mat.);00;Licenciado en Matemáticas;0000;132;18;8;1;2;1;3;;;;;9;L
+0600;Ingeniería Electrónica;00;Ingeniero Electrónico;0000;97;18;60;0;99;1;3;;;;;4;L
+0700;Arquitectura;00;Arquitecto;0007;134;18;9;0;99;1;3;;;;;11;L
+0800;Ingeniería de Computación;00;Ingeniero en Computación;0000;114;18;28;0;99;1;3;;;;;2;L
+0900;Licenciatura en Química Opción Tecnología;00;Licenciado en Química;0000;131;21;12;0;99;1;3;0;90;9;12;10;L
+1000;Licenciatura en Física;00;Licenciado en Física;0000;123;18;12;0;99;1;3;;;;;8;L
+1100;Urbanismo;00;Urbanista;0007;141;18;12;0;99;1;3;;;;;14;L
+1200;Ingeniería Geofísica;00;Ingeniero Geofísico;0000;129;18;15;0;99;1;3;;;;;5;L
+1500;Ingeniería de Materiales;00;Ingeniero  de  Materiales;0000;110;18;35;1;4;9;12;;;;;12;L
+1501;Ingeniería de Materiales Opción Metalurgia;00;Ingeniero de Materiales;0000;132;18;12;0;99;1;3;;;;;12;L
+1502;Ingeniería de Materiales Opción Polímeros;00;Ingeniero de Materiales;0000;141;18;9;0;99;1;3;;;;;12;L
+1503;Ingeniería de Materiales Opción Metalmecánica;00;Ingeniero de Materiales;0000;135;18;9;0;99;1;3;;;;;12;L
+1504;Ingeniería de Materiales Opción Cerámica;00;Ingeniero de Materiales;0000;131;18;12;0;99;1;3;;;;;12;L
+1700;Ingeniería de Producción;00;Ingeniero de Producción;0000;139;18;15;0;99;1;3;;;;;6;L
+1800;Ingeniería de Telecomunicaciones;00;INGENIERO DE TELECOMUNICACIONES;0000;142;18;9;1;11;1;3;;;;;19;L
+1900;Licenciatura en Biología;00;Licenciado en Biología;0019;118;18;21;0;99;1;3;;;;;1;L
+4000;Tecnología Eléctrica;01;T.S.U en Tecnología Eléctrica;0040;85;9;6;1;8;9;12;;;;;15;C
+4100;Tecnología Electrónica;01;T.S.U en Tecnología Electrónica;0040;85;9;3;1;8;9;12;;;;;16;C
+4200;Organización Empresarial;01;T.S.U  en Organización Empresarial;0041;81;9;6;1;8;9;12;;;;;17;C
+4300;Comercio Exterior;01;T.S.U en Comercio Exterior;0042;83;9;6;1;8;9;12;;;;;18;C
