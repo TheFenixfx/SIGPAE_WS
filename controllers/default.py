@@ -38,6 +38,12 @@ def webservices():
                 response = lista_asignaturas(vars)     #/asignaturas
         elif args[0] == 'departamentos':
             response = departamentos()                 #/departamentos
+        elif args[0] == 'coordinaciones':
+            if vars.get('cod_carrera'):
+                print(vars['cod_carrera'])
+                response = coordinacion_carrera(vars['cod_carrera'])  #/coordinaciones?cod_carrera=0800
+            else:
+                response = coordinaciones()                           #/coordinaciones
         else:
             raise HTTP(404)
 
@@ -56,7 +62,8 @@ def webservices():
 
 ## /carreras
 def carreras():
-    return db.executesql("SELECT cod_carrera, nombre_carrera nombre, tipo_carrera tipo FROM carrera", as_dict=True)
+    query = db.executesql("SELECT cod_carrera, nombre_carrera nombre, tipo_carrera tipo FROM carrera", as_dict=True)
+    return response.json(query)
 
 ## /estudiantes?carnet=11-10199
 def estudiante_carnet(carnet):
@@ -158,5 +165,24 @@ def departamentos():
         '''SELECT cod_depto, nombre_depto nombre, siglas_depto, e_mail_depto email
            FROM departamento_academico
            WHERE nombre_depto NOT IN ('DESCONOCIDO', 'SIN DEFINIR')''', as_dict=True
+    )
+    return response.json(query)
+
+# /coordinaciones
+def coordinaciones():
+    query = db.executesql(
+        '''SELECT nombre_coordinacion nombre, email_coordinacion email
+           FROM coordinacion_carrera coord, carrera carr
+           WHERE carr.cod_carrera = coord.cod_carrera AND nombre_coordinacion != ''
+           ORDER BY nombre_coordinacion''', as_dict=True
+    )
+    return response.json(query)
+
+# /coordinaciones?cod_carrera=0800 obtiene las coordinaciones asociados a una carrera
+def coordinacion_carrera(cod_carrera):
+    query = db.executesql(
+        '''SELECT nombre_coordinacion nombre, email_coordinacion email
+           FROM coordinacion_carrera coord
+           WHERE coord.cod_carrera=%s ''', [cod_carrera], as_dict=True
     )
     return response.json(query)
