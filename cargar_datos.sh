@@ -14,7 +14,7 @@
 # Variables de entorno, cambiar si es necesario de acuerdo a la base de datos creada
 export dbname=dacepregrado
 export user=sigpae
-export pass=123123
+export pass=LXHyCmFD9rQPCqC
 export schema=public
 export PGPASSWORD=$pass
 
