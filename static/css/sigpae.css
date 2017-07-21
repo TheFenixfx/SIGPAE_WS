@@ -1,0 +1,280 @@
+/*
+  CSS para SIGPAE
+*/
+
+/*
+  COLORES
+  #F3F3F3; // Gris Claro
+  #3E3E3E  // Gris Oscuro
+  #525252  // Gris Medio
+*/
+
+/* GENERAL */
+
+body {
+  padding: 0;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none !important;
+}
+
+/* HEADER Y NAVBAR */
+
+.header_home img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.sigpae-navbar {
+  max-width: 80%;
+  display: block;
+  margin: 1% auto;
+  background-color: #F3F3F3;
+  border-radius: 5px;
+}
+
+.sigpae-navbar-transcription {
+  max-width: 95%;
+  display: block;
+  margin: 1% auto;
+  background-color: #F3F3F3;
+  border-radius: 5px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #3E3E3E;
+    font-size: 15px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #525252;
+}
+
+.dropdown-menu > li > a {
+    color: #3E3E3E;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: initial;
+    text-transform: uppercase;
+}
+
+/* FOOTER */
+.footer-sigpae {
+  max-width: 80%;
+  padding: 10px;
+  background-color: #F3F3F3;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #3E3E3E;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+/* ALERTS */
+
+div.w2p_flash.alert {
+    display: none;
+    position: fixed;
+    top: 70px;
+    right: 2.5%;
+    cursor: pointer;
+    z-index: 1000;
+    background-color: #e67e22;
+    border: 1px solid #d35400;
+    border-left: 5px solid #d35400;
+    color: white;
+    opacity: 1 !important;
+}
+
+/* MAIN CONTAINER ELEMENTS */
+
+.main-container {
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.main-container-transcription {
+  max-width: 95%;
+  display: block;
+  margin: 0 auto;
+}
+
+.main-container h1,
+.main-container h2 {
+  margin: 2% 0;
+}
+
+/*FORMS*/
+
+.form-horizontal {
+  width: 40%;
+  margin: 2% auto;
+}
+
+.form-horizontal input{
+  width: 100%;
+  height: 30px;
+  border-radius: 3px;
+  margin: 1%;
+  padding: 1%
+}
+
+.modal-dialog .form-horizontal,
+.edit-user .form-horizontal {
+  width: 100%;
+  margin: 2% auto;
+}
+
+/* Tablas */
+
+thead tr th,
+tbody tr td {
+  text-align: center;
+}
+
+/* Búsqueda Publica*/
+
+.public-search {
+  display: block;
+  text-align: left;
+  margin-top: 10vh;
+}
+
+.public-search form input[type=text] {
+    width: 70%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.public-search form input[type=text]:focus {
+    width: 100%;
+}
+
+.column-data {
+  max-height: 80vh;
+}
+
+.h-scroll {
+  max-height: 35vh;
+  position: static;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-bottom: 1vh;
+}
+
+.campos-large {
+  max-height: 70vh;
+}
+
+.pdf-display {
+  width: 100%;
+  height: 85vh;
+}
+
+.transcription-tag {
+  width: 100%;
+  background-color: #F3F3F3;
+  height: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.field-tag {
+  width: 100%;
+  background-color: #F3F3F3;
+  height: 30px;
+  margin: 2px;
+  padding: 2px;
+  text-align: left;
+}
+
+.field-tag-wide {
+  width: 100%;
+  background-color: #F3F3F3;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 5px;
+  display: block;
+}
+
+.field-tag-wide textarea {
+  width: 100%;
+  height: 25vh;
+  margin: 5px 0;
+  border: 2px solid #f3f3f3;
+}
+
+.field-tag input,
+.field-tag select {
+  width: 60%;
+  float: right;
+  height: 26px;
+  padding: 0 5px;
+  border: 1px solid #f3f3f3;
+}
+
+.transcription-buttons {
+    float: right;
+    margin-top: 2vh;
+    margin-bottom: 0;
+}
+
+.red {
+  color: #e74c3c;
+}
+
+.green {
+  color: #2ecc71;
+}
+
+.blue {
+  color: #3498db;
+}
+
+.bottom-right-buttom {
+  float: right;
+  margin: 20px 0;
+}
+
+.help-list > li {
+  list-style-type: none;
+}
+
+.block-info {
+  border: 1px solid #3498db;
+  background-color: white;
+  padding: 10px;
+  font-style: italic;
+  border-left: 5px solid #3498db;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.block-danger {
+  border: 1px solid #d9534f;
+  background-color: white;
+  padding: 10px;
+  font-style: italic;
+  border-left: 5px solid #d9534f;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.full-width-form .form-horizontal {
+    width: 100%;
+    margin: 2% auto;
+}
+
+.table-responsive {
+  margin-bottom: 20px;
+}
