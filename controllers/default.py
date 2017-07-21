@@ -9,6 +9,14 @@
 # -------------------------------------------------------------------------
 import re
 
+def index():
+    response.flash = T("¡Bienvenido al SIGPAE WS!")
+
+    message = 'Sistema de Gestión de Planes Académicos de Estudio - Web Services'
+
+    return dict(message=message)
+
+
 @request.restful()
 def webservices():
     def GET(*args, **vars):
@@ -72,10 +80,10 @@ def estudiante_carnet(carnet):
     lista = carnet.split("-")      # Carnet en formato 01-12345
     lista[0] = str(int(lista[0]))  # Quitar cero al inicio
     query = db.executesql(
-        '''SELECT 
+        '''SELECT
              cedula_estudiante ci,
              concat(concat(anio_carnet,'-'),nro_carnet) carnet,
-             nombres_estudiante nombres, 
+             nombres_estudiante nombres,
              apellidos_estudiante apellidos,
              estado_civil,
              sexo
@@ -86,10 +94,10 @@ def estudiante_carnet(carnet):
 # /estudiantes?cedula=23625373
 def estudiante_cedula(cedula):
     query = db.executesql(
-        '''SELECT 
+        '''SELECT
              cedula_estudiante ci,
              concat(concat(anio_carnet,'-'),nro_carnet) carnet,
-             nombres_estudiante nombres, 
+             nombres_estudiante nombres,
              apellidos_estudiante apellidos,
              estado_civil,
              sexo
@@ -103,9 +111,9 @@ def asig_aprobadas(carnet):
     lista[0] = str(int(lista[0]))  # Quitar cero al inicio
     query = db.executesql(
         '''SELECT ap.cod_asignatura, ap.nombre_asignatura nombre
-           FROM asignatura_pregrado ap, estudiante_asignatura ea 
-           WHERE ea.anio_carnet=%s 
-           AND ea.nro_carnet=%s 
+           FROM asignatura_pregrado ap, estudiante_asignatura ea
+           WHERE ea.anio_carnet=%s
+           AND ea.nro_carnet=%s
            AND ea.cod_asignatura=ap.cod_asignatura
            AND ea.nota_asignatura IN ('3','4','5');''', lista, as_dict=True
     )
@@ -113,10 +121,10 @@ def asig_aprobadas(carnet):
 
 def asignatura(cod_asignatura):
     query = db.executesql(
-        '''SELECT 
-             cod_asignatura, 
-             nombre_asignatura nombre, 
-             nro_creditos creditos, 
+        '''SELECT
+             cod_asignatura,
+             nombre_asignatura nombre,
+             nro_creditos creditos,
              nro_horas_teoria h_teoria,
              nro_horas_practica h_practica,
              nro_horas_laboratorio h_laboratorio,
